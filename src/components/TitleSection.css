@@ -1,0 +1,134 @@
+.title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.line {
+  height: 100px;
+  width: 1px;
+  align-self: center;
+}
+.fade-blue {
+  background: linear-gradient(#fff, #019ae9);
+}
+
+.circle-section {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.blue {
+  background: linear-gradient(90deg, #007cf0, #00dfd8);
+}
+.violet {
+  background: linear-gradient(90deg, #7928ca, #ff0080);
+}
+.orange {
+  background: linear-gradient(90deg, #ff4d4d, #f9cb28);
+}
+.section-label {
+  font-size: 2rem;
+  letter-spacing: -0.05rem;
+  font-weight: 700;
+  margin: 0;
+}
+.section-label-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0 0.2em 0 0.2em;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3.75rem;
+  font-weight: 700;
+  letter-spacing: -0.05rem;
+  margin: 0 0 24px;
+  padding-bottom: 12px;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  margin-bottom: 64px;
+}
+
+@media screen and (min-width: 961px) {
+  .section-content {
+    flex-basis: auto;
+    margin-top: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.content-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-left: 0;
+}
+
+@media screen and (min-width: 961px) {
+  .right-item {
+    margin-left: 24px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .right-item {
+    margin-top: 24px;
+    flex-basis: auto;
+  }
+}
+
+.content-item p {
+  color: #666;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.section-link {
+  text-decoration: none;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+}
+.section-link:hover {
+  color: #000;
+}
+
+.blue-font {
+  color: #007cf0;
+}
+.violet-font {
+  color: #7928ca;
+}
+.orange-font {
+  color: #ff4d4d;
+}
